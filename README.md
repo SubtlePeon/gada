@@ -3,7 +3,6 @@ This is a repository for my work in the Google Advanced Data Analytics course on
 ## Todo
 - [ ] Get a link for above
 - [ ] Polish
-- [ ] What happened to Course 5?
 
 ## Details
 1. Course 2: Python Introduction
@@ -21,8 +20,12 @@ This is a repository for my work in the Google Advanced Data Analytics course on
   - Prepared hypotheses for hypothesis testing
   - Conducted a t-test to determine stastical significance
 4. Course 5: Regression Modeling
-  - Made plots
-  - Handled outliers
+  - Initial analysis of target variable, `verification_status`
+  - Check correlation of features to satisfy model assumptions
+  - Split data into train and test sets
+  - Encode data using one-hot encoding
+  - Trained a logistic regression model
+  - Evaluated the model on metrics using a confusion matrix
 5. Course 6: Machine Learning Models
   - Split data into train, validation, and test sets
   - Trained a Random Forest Model (from `sklearn`) on the data
